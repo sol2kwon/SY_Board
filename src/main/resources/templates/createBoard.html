@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="/js/board.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<body>
+<div class="w3-main" style="margin-right:200px; margin-top: 53px">
+    <div style="background-color: #42cf8b">
+        <div class="w3-container">
+            <h1>createBoard</h1>
+        </div>
+    </div>
+
+    <form action="" target="_blank">
+    <div class="w3-container">
+        <p><label>제목</label>
+            <input class="w3-input w3-border" id="title" name="title" type="text"></p>
+
+        <p><label>내용</label>
+            <input class="w3-input w3-border" id="content" name="content" type="text"></p>
+
+    </div>
+        <p><button class="w3-button w3-light-grey w3-section" onclick="createBoard()" >작성하기</button></p>
+    </form>
+
+</div>
+</body>
+</html>
